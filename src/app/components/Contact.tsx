@@ -5,12 +5,12 @@ const details = [
   {
     icon: MapPin,
     label: "Address",
-    value: "42 Wellness Avenue, Bandra West, Mumbai 400050",
+    value: "Nakade Hospital, Tiwary Layout, Christanand Square, Bramhapuri 441206",
   },
   {
     icon: Clock,
     label: "Timings",
-    value: "Mon – Sat · 9:00 AM – 8:00 PM",
+    value: "Mon – Sat · 10:00 AM – 6:00 PM",
   },
   {
     icon: Phone,
@@ -85,13 +85,13 @@ export function Contact() {
             <div className="flex h-full flex-col overflow-hidden rounded-[32px] border border-[rgba(15,23,42,0.06)] bg-white shadow-soft-lg">
               <iframe
                 title="Clinic location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=72.81%2C19.04%2C72.86%2C19.08&layer=mapnik&marker=19.06%2C72.83"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=79.85%2C20.60%2C79.88%2C20.62&layer=mapnik&marker=20.612%2C79.865"
                 className="h-[380px] w-full grayscale-[0.15] lg:h-full"
                 loading="lazy"
               />
               <div className="border-t border-[rgba(15,23,42,0.06)] p-5">
                 <a
-                  href="https://maps.google.com"
+                  href="https://www.google.com/maps/search/Nakade+Hospital+Bramhapuri"
                   className="flex w-full items-center justify-center gap-2 rounded-[18px] bg-[#2563eb] px-6 py-4 text-[16px] font-medium text-white shadow-glow transition-all hover:-translate-y-0.5"
                 >
                   <Navigation className="h-5 w-5" />

@@ -67,7 +67,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-[#93c5fd]" />
-                <span>42 Wellness Avenue, Bandra West, Mumbai 400050</span>
+                <span>Nakade Hospital, Tiwary Layout, Christanand Square, Bramhapuri 441206</span>
               </li>
             </ul>
           </div>
