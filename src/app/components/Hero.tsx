@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Phone, Navigation, Star, MapPin } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { images, DOCTOR_NAME } from "./site-data";
-import doctorPortrait from "../../imports/ChatGPT_Image_Jun_24__2026__12_51_35_PM-3.png";
+import doctorPortrait from "../../imports/ChatGPT_Image_Jun_24__2026__12_51_35_PM-3.webp";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const fadeUp = {
