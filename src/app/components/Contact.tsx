@@ -85,13 +85,13 @@ export function Contact() {
             <div className="flex h-full flex-col overflow-hidden rounded-[32px] border border-[rgba(15,23,42,0.06)] bg-white shadow-soft-lg">
               <iframe
                 title="Clinic location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=79.85%2C20.60%2C79.88%2C20.62&layer=mapnik&marker=20.612%2C79.865"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=79.851%2C20.603%2C79.861%2C20.613&layer=mapnik&marker=20.608287%2C79.856081"
                 className="h-[380px] w-full grayscale-[0.15] lg:h-full"
                 loading="lazy"
               />
               <div className="border-t border-[rgba(15,23,42,0.06)] p-5">
                 <a
-                  href="https://www.google.com/maps/search/Nakade+Hospital+Bramhapuri"
+                  href="https://www.google.com/maps/place/20%C2%B036'29.8%22N+79%C2%B051'21.9%22E/@20.608287,79.8535007,17z/data=!3m1!4b1!4m12!1m7!3m6!1s0x3a2c9a7444f5f4d9:0xfcdf36752f1bceec!2sChristanand+Hospital!8m2!3d20.6076648!4d79.8558557!16s%2Fg%2F1v5_7vm6!3m3!8m2!3d20.608287!4d79.856081?entry=ttu"
                   className="flex w-full items-center justify-center gap-2 rounded-[18px] bg-[#2563eb] px-6 py-4 text-[16px] font-medium text-white shadow-glow transition-all hover:-translate-y-0.5"
                 >
                   <Navigation className="h-5 w-5" />

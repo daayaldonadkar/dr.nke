@@ -4,12 +4,12 @@ import { Hero } from "./components/Hero";
 import { TrustStrip } from "./components/TrustStrip";
 import { About } from "./components/About";
 import { Conditions } from "./components/Conditions";
-import { Services } from "./components/Services";
+// import { Services } from "./components/Services";
 import { WhyChooseUs } from "./components/WhyChooseUs";
 import { Testimonials } from "./components/Testimonials";
 import { HealthTips } from "./components/HealthTips";
-import { Gallery } from "./components/Gallery";
-import { FAQ } from "./components/FAQ";
+// import { Gallery } from "./components/Gallery";
+// import { FAQ } from "./components/FAQ";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
@@ -22,13 +22,13 @@ export default function App() {
         <TrustStrip />
         <About />
         <Conditions />
-        <Services />
+        {/* <Services /> */}
         <WhyChooseUs />
         <Testimonials />
         <HealthTips />
-        <Gallery />
+        {/* <Gallery /> */}
         <Contact />
-        <FAQ />
+        {/* <FAQ /> */}
       </main>
       <Footer />
       <MobileActionBar />
